@@ -1,0 +1,17 @@
+name = input("Enter Name: ") 
+age = int(input("Enter Age: ")) 
+city = input("Enter City: ")  
+mark1 = float(input("Enter Marks of Subject 1: ")) 
+mark2 = float(input("Enter Marks of Subject 2: ")) 
+mark3 = float(input("Enter Marks of Subject 3: "))  
+total_marks = mark1 + mark2 + mark3 
+percentage = total_marks / 3  
+print("\n----- STUDENT PROFILE -----") 
+print("Name       :", name) 
+print("Age        :", age) 
+print("City       :", city) 
+print("Marks 1    :", mark1) 
+print("Marks 2    :", mark2) 
+print("Marks 3    :", mark3) 
+print("Total      :", total_marks) 
+print("Percentage :", round(percentage, 2), "%") 
